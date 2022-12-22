@@ -19,8 +19,8 @@ class TestIntermediateClass(object):
 
     def test1(self):
         print("\n      Running TestIntermediateClass.test1")
-        assert True
+        assert False
 
     def test2(self, bonus_fixture):
         print("\n          Running TestIntermediateClass.test2")
-        assert True
+        assert False
