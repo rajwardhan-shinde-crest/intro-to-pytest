@@ -7,6 +7,7 @@ def test_with_data_fixture(one_fixture):
     calls it, and passes that return value into our test case:
     """
     print("\nRunning test_with_data_fixture: {}".format(one_fixture))
+    pytest.fail("Wrong data!!")
     assert one_fixture == 1
 
 
