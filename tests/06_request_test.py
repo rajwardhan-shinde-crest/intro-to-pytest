@@ -3,6 +3,7 @@ import pytest
 @pytest.mark.skip(reason="reason for skipping the test case")
 def test_with_introspection(introspective_fixture):
     print("\nRunning test_with_introspection...")
+    pytest.fail("Wrong data type passed")
     assert True
 
 
