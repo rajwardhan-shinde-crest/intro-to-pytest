@@ -3,6 +3,7 @@ import pytest
 
 def test_with_safe_cleanup_fixture(safe_fixture):
     print("\nRunning test_with_safe_cleanup_fixture...")
+    pytest.fail("Cleanup failed")
     assert True
 
 
