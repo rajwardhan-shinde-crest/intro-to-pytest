@@ -6,6 +6,7 @@ def test_fake_query():
     """
     pytest.mark can be used to "tag" tests for later reference
     """
+    pytest.fail("Invalid data")
     assert True
 
 
